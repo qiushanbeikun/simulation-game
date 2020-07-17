@@ -1,0 +1,123 @@
+{
+    "_comments": "this is the template for a new game",
+    "lands":[
+        {
+            "landName":"nchNorth",
+            "landy": 8,
+            "landx": 8,
+            "buildings": [
+                [
+                    {
+                    "buildingType": "government",
+                    "positionX":0,
+                    "positionY":0,
+                    "buildingLevel":1
+                    },
+                     0,
+                     {
+                        "buildingType":"housing",
+                        "positionX":1,
+                        "positionY":0,
+                        "buildingLevel":1,
+                        "population":5
+                    },
+                    {
+                        "buildingType":"housing",
+                        "positionX":2,
+                        "positionY":0,
+                        "buildingLevel":1,
+                        "population":5
+                    },
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    {
+                        "buildingType": "warehouse",
+                        "positionX":2,
+                        "positionY":1,
+                        "buildingLevel":1
+                    },
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [1,1,0,0,1,1,1,1],
+                [1,1,1,1,1,1,1,1],
+                [1,1,1,1,1,1,1,1],
+                [1,1,1,1,1,1,1,1],
+                [1,1,1,1,1,1,1,1],
+                [1,1,1,1,1,1,1,1]
+            ],
+            "buildingInfo":[
+                {
+                    "buildingType": "government",
+                    "positionX":0,
+                    "positionY":0,
+                    "buildingLevel":1
+                },
+                {
+                    "buildingType":"housing",
+                    "positionX":1,
+                    "positionY":0,
+                    "buildingLevel":1,
+                    "population":5
+                },
+                {
+                    "buildingType":"housing",
+                    "positionX":2,
+                    "positionY":0,
+                    "buildingLevel":1,
+                    "population":5
+                },
+                {
+                    "buildingType": "warehouse",
+                    "positionX":2,
+                    "positionY":1,
+                    "buildingLevel":1,
+                    "capacity": 500
+                }
+            ]
+        }
+    ],
+
+
+    "population": {
+        "level1": 10,
+        "level2": 0,
+        "level3": 0,
+        "level4": 0
+    },
+
+    "resuources":{
+        "level1":{
+            "currency1":100,
+            "mine1": 100,
+            "food1": 100,
+            "construction1": 50
+        },
+        "level2":{
+
+        },
+        "level3":{
+
+        },
+        "level4":{
+
+        }
+    },
+
+    "army": {
+        "level1":[],
+        "level2":[],
+        "level3":[],
+        "level4":[]
+    },
+    "hallows":[]
+}
