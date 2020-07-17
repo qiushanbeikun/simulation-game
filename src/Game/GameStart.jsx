@@ -11,6 +11,7 @@ export function GameStart(dest) {
   } else {
     // start a new game
     initializeJSON(newGameTemplate);
+    //generate random obstacles on the map
   }
 }
 
@@ -60,8 +61,6 @@ function saveGameValidationProcess(JSON){
 
     // validate warehouse capacity 其实我觉得不用validate
   }
-
-
   // otherwise, the save is valid and return true
   return true;
 }
