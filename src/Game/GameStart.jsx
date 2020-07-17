@@ -11,7 +11,7 @@ export function GameStart(dest) {
   } else {
     // start a new game
     initializeJSON(newGameTemplate);
-    //generate random obstacles on the map
+    // todo: generate random obstacles on the map
   }
 }
 
