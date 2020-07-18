@@ -37,13 +37,13 @@ const BASE_MAINTENANCE_FEE = [
 
 
 /*
+  position: the coordinate to build the building
+  resourcesList: the resource list of all resources
 
   return true if the building can be built successfully
   otherwise, send back the error message ie not a valid position/ not enough currency/resources
   ideally, this function will only be called when the "LivePositionCheck" is done and the check result is valid
   this function is just a template for other building, it will never be called
-  position: the coordinate to build the building
-  resourcesList: the resource list of all resources
  */
 
 export function BuildGovernment(position, resourceList){
@@ -60,6 +60,7 @@ export function BuildGovernment(position, resourceList){
   position: only need to refers to which continent the targeting build is at, detailed position is not actually needed
   resourcesList: the resource list of all resources
   return true if all the resources are enough, and modify the resource amount
+  this does not return an object, 只是修改指向位置的数据
   otherwise should return error message of "not enough currency/resource"
  */
 
@@ -69,9 +70,10 @@ export function UpgradeGovernment(position, resourceList) {
 }
 
 /*
-  resourcesList: the resource list of all resources
-
+  this is just a calculator to gather all the resources for maintenance
+  should return a resourceList
+  this one does not do timing control
  */
-export function ResourceValidator(resourceList, consumptionList) {
-
+export function GovernmentMaintenance(buildingInfo) {
+  return [];
 }
