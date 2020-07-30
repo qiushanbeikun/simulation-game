@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Button from '@material-ui/core/Button';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import { lightGreen } from '@material-ui/core/colors';
-import {GameStart} from './Game/GameStart';
+import {NewGameStart, SavedGameStart} from './Game/GameStart';
 
 
 const StyledTitle = styled(Typography)`
@@ -37,15 +37,14 @@ function App() {
   return (
     <div>
       <StyledTitle variant={"h2"}>
-        Welcome to SRE's simulation game.
+        Simulation game.
       </StyledTitle>
-      <ColorButton variant="contained" color="primary" className={classes.margin}>
-        Custom CSS
-      </ColorButton>
-      <ColorButton>
+      <ColorButton onClick={NewGameStart}>
         Start a new game
       </ColorButton>
-      <Button onClick={GameStart("new")}>TEST</Button>
+      <ColorButton onClick={SavedGameStart}>
+        Load a saved game
+      </ColorButton>
     </div>
   );
 }

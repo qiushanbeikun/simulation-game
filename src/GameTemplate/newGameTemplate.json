@@ -3,8 +3,8 @@
     "lands":[
         {
             "landName":"nchNorth",
-            "landy": 8,
-            "landx": 8,
+            "landY": 8,
+            "landX": 8,
             "buildings": [
                 [
                     {
@@ -85,6 +85,7 @@
                 }
             ]
         }
+
     ],
 
 
@@ -95,7 +96,7 @@
         "level4": 0
     },
 
-    "resuources":{
+    "resourcesList":{
         "level1":{
             "currency1":100,
             "mine1": 100,

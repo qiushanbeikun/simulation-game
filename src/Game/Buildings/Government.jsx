@@ -1,4 +1,3 @@
-// details for the government building to work
 
 /*
 民政大厅（government）：
@@ -16,24 +15,40 @@
 
 // all the const numbers for a government building
 
-// resources needed for a minor upgrade
-const MINOR_UPGRADE_RESOURCES = [
-  {credit: 50},
-  {mineral: 10},
-  {homeDepot: 10}
-];
+const GOVERNMENT_RESOURCE_LIST = {
+  BASE_POPULATION_CAPACITY: 100,
+  MINOR_UPGRADE_RESOURCES: [
+    {credit: 50},
+    {mineral: 10},
+    {homeDepot: 10}
+  ],
+  STEP_UPGRADE_RESOURCES: [
+    {credit: 50},
+    {mineral: 10},
+    {homeDepot: 10}
+  ],
+  BASE_MAINTENANCE_FEE:[
+    {credit:5}
+  ]
+};
 
-//resources needed for a big upgrade
-// todo: require modification to numbers
-const MAJOR_UPGRADE_RESOURCES = [
-  {credit: 50},
-  {mineral: 10},
-  {homeDepot: 10}
-];
-
-const BASE_MAINTENANCE_FEE = [
-  {credit:5}
-];
+// // resources needed for a minor upgrade
+// const MINOR_UPGRADE_RESOURCES = [
+//   {credit: 50},
+//   {mineral: 10},
+//   {homeDepot: 10}
+// ];
+//
+// //resources needed for a big upgrade
+// const STEP_UPGRADE_RESOURCES = [
+//   {credit: 50},
+//   {mineral: 10},
+//   {homeDepot: 10}
+// ];
+//
+// const BASE_MAINTENANCE_FEE = [
+//   {credit:5}
+// ];
 
 
 /*
