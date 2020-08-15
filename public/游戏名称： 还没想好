@@ -1,5 +1,35 @@
 游戏名称： 还没想好
 
+1- minimal requirements
+    - the game can run 
+    - start menu can start a new game from template or load a local saved game file, can save game to local file
+    - in game feature
+        - building menu of different type of 4 levels 第？步
+        - population management system, can automatically allocate workforce
+        - building construction
+                民政大厅（government）
+                住房（housing）
+                仓库（warehouse）
+                特定种类的工坊（workshops >1 building）
+                military base
+        
+2- standard requirements
+    - warship building system
+    - turn-based PVE battle system. (and the final boss), can continue game after boss' death
+    - different difficulty levels by consumption rate and mainteniance rate
+        - selected from start menu
+
+
+3- optional requirements
+    - extra challenge of simulation of real work econonic phenomenon (inflation and marketing delay)
+         - selected from start menu
+    - extra challenge: half refund / no refund / apply additional charge when building tearing down
+         - selected from start menu
+    - building construction
+        defense system (> 1 building)
+
+
+
 类别: simulation, war maybe (不想写ai)
 
 ----------------------------------------------------
@@ -20,21 +50,6 @@ data control? 如何控制游戏运行时产生的大量数据和数学运算？
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -43,7 +58,7 @@ data control? 如何控制游戏运行时产生的大量数据和数学运算？
 胜利条件：达成所有资源的可持续发展，（通过海军技术抵达逆尘海的边缘），通过武器科技征服紫斗仙域的敌人“太苍劫灵”
 
 地图：
-“逆尘界”，共有四个大陆，每个大陆可以通过改造拥有最高256(16*16)的土地，以及9000（可能需要调整）的人口
+“逆尘界”，共有四个大陆，每个大陆可以通过改造拥有最高256(16*16)的土地，以及4000（可能需要调整）的人口
 
 人口：
 当拥有足够的资源的时候可以对人口渡劫飞升，提升等级。人后总共拥有四个等级：
@@ -81,6 +96,7 @@ credit, mineral, food, // todo
 逆海剑、紫斗道经：紫斗仙皇遗物，也是晋升仙皇的必须品
 太古不灭雨：进入逆尘海的定海神针，海军出征的必须物品
 
+
 // todo
 
 
@@ -103,7 +119,7 @@ government不受效率因素影响。
 仓库（warehouse）
 特定种类的工坊（workshop）
 military base
-defnese shild
+defense system
 
 民政大厅（government）：
 提供人口管理能力(向下兼容)，每个大陆仅限一个，每一步分为8个小等级，每次升级增加100人口管理能力（100-》200-》300-》- - -》900）
