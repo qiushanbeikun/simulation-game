@@ -1,3 +1,5 @@
+# Decrapted version and will never be updated
+See the new repo link
 # Game design ideas
 This is dark-style simulation game that I've still not ready to give it a name.  
 If u want to ask what it looks like, my answer is that I got some inspiration from games I played like Anno 1800, Oxygen Not Incluede and Stellaris, I agree that these are perfect games but its not overall like the "simulation" im actually anticipating.  
